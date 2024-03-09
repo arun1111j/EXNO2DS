@@ -105,6 +105,19 @@ pt=sns.boxplot(ax=ax1,x='Pclass',y='Age',hue='Gender',data=dt)
 ```
 sns.catplot(data=dt,col="Survived",x="Gender",hue="Pclass",kind="count")
 ```
+![Screenshot 2024-03-09 155149](https://github.com/arun1111j/EXNO2DS/assets/128461833/6946dd25-363f-49ca-b72e-8c18c712921c)
+```
+#co-relation
+import seaborn as sns
+corr=dt.corr()
+sns.heatmap(corr,annot=True)
+```
+![Screenshot 2024-03-09 155315](https://github.com/arun1111j/EXNO2DS/assets/128461833/cc03ab5c-9b5d-4abd-acf9-7cd347440f8b)
+```
+sns.pairplot(dt)
+```
+![image](https://github.com/arun1111j/EXNO2DS/assets/128461833/30abf5ce-8b9c-49f9-8aa9-66467f3ce30d)
+
 
 
 
