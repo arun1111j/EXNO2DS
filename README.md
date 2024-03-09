@@ -117,16 +117,5 @@ sns.heatmap(corr,annot=True)
 sns.pairplot(dt)
 ```
 ![image](https://github.com/arun1111j/EXNO2DS/assets/128461833/30abf5ce-8b9c-49f9-8aa9-66467f3ce30d)
-
-
-
-
-
-
-
-
-
-
-
-# RESULT
-        <<INCLUDE YOUR RESULT HERE>>
+# RESULT:
+The code successfully excuted
